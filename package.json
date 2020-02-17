@@ -1,0 +1,19 @@
+{
+  "name": "@fvictorio/mock-tokens",
+  "version": "0.0.1",
+  "description": "",
+  "main": "buidler.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.1.2",
+    "@nomiclabs/buidler-truffle5": "^1.1.2",
+    "@nomiclabs/buidler-web3": "^1.1.2",
+    "@openzeppelin/contracts": "^2.5.0"
+  }
+}
