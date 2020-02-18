@@ -49,7 +49,7 @@ contract MockERC20 is IERC20 {
   }
 
   function transferFrom(address sender, address recipient, uint256 amount) external returns (bool) {
-    allowances[msg.sender][sender] = allowances[msg.sender][sender].sub(amount);
+    allowances[sender][msg.sender] = allowances[sender][msg.sender].sub(amount);
     balances[sender] = balances[sender].sub(amount);
     balances[recipient] = balances[recipient].add(amount);
 
